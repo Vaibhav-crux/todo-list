@@ -20,26 +20,31 @@ This To-Do List application is built using JavaScript, Node.js, Express.js, Boot
 ## Usage
 
 1. **Home Page:**
-   ![Home Page](url_to_homepage_image)
+   ![Screenshot 2024-03-07 200408](https://github.com/Vaibhav-crux/todo-list/assets/122672330/ddd9dd1c-2f4a-48cc-9af1-0367b9be2eb1)
 
 2. **Add a Task:**
-   ![Add Task](url_to_add_task_image)
+   ![Screenshot 2024-03-07 200441](https://github.com/Vaibhav-crux/todo-list/assets/122672330/2ea81e2e-6c94-4f9b-a573-689d164d2c74)
+
    Input your task in the provided field and click the "Send" button.
 
 3. **View Tasks:**
-   ![View Tasks](url_to_view_tasks_image)
+   ![Screenshot 2024-03-07 200453](https://github.com/Vaibhav-crux/todo-list/assets/122672330/4a7d4978-bbd8-4caa-8c9b-359eb889e3b9)
+
    Your added tasks will be displayed on the page.
 
 4. **Data Persistence:**
-   ![Data Stored in Firebase](url_to_firebase_image)
+   ![Screenshot 2024-03-07 200704](https://github.com/Vaibhav-crux/todo-list/assets/122672330/77921e9b-7ef6-4df1-9ebc-222a3461ec29)
+
    The entered tasks are stored in Firebase, ensuring data persistence.
 
 5. **Delete Task:**
-   ![Delete Task](url_to_delete_task_image)
+   ![Screenshot 2024-03-07 200744](https://github.com/Vaibhav-crux/todo-list/assets/122672330/d5e9da2c-30a6-4b3a-a4e9-6fee141030ee)
+
    Click on the delete button to remove a task from the list.
 
 6. **Data Deletion from Firebase:**
-   ![Data Deleted from Firebase](url_to_delete_firebase_image)
+   ![Screenshot 2024-03-07 200805](https://github.com/Vaibhav-crux/todo-list/assets/122672330/2e80c057-aea9-41cc-b604-182068cb75d3)
+
    The task data is deleted from Firebase upon deletion.
 
 Feel free to customize and enhance this To-Do List app to suit your needs!
