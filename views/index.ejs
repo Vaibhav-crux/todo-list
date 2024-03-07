@@ -1,0 +1,30 @@
+<%- include("./partials/header") %>
+
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">To-Do List</a>
+</nav>
+
+<div class="container mt-10">
+    <form action="/add/todo" method="post">
+        <input type="text" name="todo" class="form-control" placeholder="Enter ToDo works">
+        <input type="submit" value="Add ToDo" class="btn btn-lg btn-primary mt-2">
+    </form>
+
+    <ul class="list-group mt-5">
+        <% if (todos && todos.length > 0) { %>
+            <% todos.forEach(todo => { %>
+                <li class="list-group-item">
+                    <%= todo.todo %>
+                    <form action="/delete/todo" method="post" class="d-inline">
+                        <input type="hidden" name="todo" value="<%= todo.todo %>">
+                        <button type="submit" class="btn btn-sm btn-danger ml-2">Delete</button>
+                    </form>
+                </li>
+            <% }); %>
+        <% } else { %>
+            <li class="list-group-item">No todos available.</li>
+        <% } %>
+    </ul>
+</div>
+
+<%- include("./partials/footer") %>
