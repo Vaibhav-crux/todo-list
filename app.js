@@ -3,10 +3,10 @@ const admin = require("firebase-admin");
 
 const app = express();
 
-const serviceAccount = require("./files/nodejs-ace4f-firebase-adminsdk-7f7xr-08b1f5c3d3.json");
+const serviceAccount = require("./files/your_firebase_json_file.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://nodejs-ace4f-default-rtdb.asia-southeast1.firebasedatabase.app",
+  databaseURL: "https://your_firebase_database_url.firebasedatabase.app",
 });
 
 app.use(express.urlencoded({ extended: true }));
