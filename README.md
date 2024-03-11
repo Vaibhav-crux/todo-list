@@ -20,15 +20,15 @@ This To-Do List application is built using JavaScript, Node.js, Express.js, Boot
 ## Usage
 
 1. **Home Page:**
-   ![Screenshot 2024-03-07 200408](https://github.com/Vaibhav-crux/todo-list/assets/122672330/ddd9dd1c-2f4a-48cc-9af1-0367b9be2eb1)
+   ![Screenshot 2024-03-10 235849](https://github.com/Vaibhav-crux/todo-list/assets/122672330/4858bbe4-f98c-4147-bfe8-4a18dd523bcd)
 
 2. **Add a Task:**
-   ![Screenshot 2024-03-07 200441](https://github.com/Vaibhav-crux/todo-list/assets/122672330/2ea81e2e-6c94-4f9b-a573-689d164d2c74)
+   ![Screenshot 2024-03-10 235919](https://github.com/Vaibhav-crux/todo-list/assets/122672330/96750143-dc25-47a6-be06-012f4a0262bf)
 
    Input your task in the provided field and click the "Add ToDO" button.
 
 3. **View Tasks:**
-   ![Screenshot 2024-03-07 200453](https://github.com/Vaibhav-crux/todo-list/assets/122672330/4a7d4978-bbd8-4caa-8c9b-359eb889e3b9)
+   ![Screenshot_11-3-2024_121110_localhost](https://github.com/Vaibhav-crux/todo-list/assets/122672330/5556ea21-31a7-41fa-9aa0-4225daf3d3f2)
 
    Your added tasks will be displayed on the page.
 
