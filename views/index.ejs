@@ -1,28 +1,47 @@
 <%- include("./partials/header") %>
 
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+
 <nav class="navbar navbar-light bg-light">
     <a class="navbar-brand" href="#">To-Do List</a>
 </nav>
 
-<div class="container mt-10">
-    <form action="/add/todo" method="post">
-        <input type="text" name="todo" class="form-control" placeholder="Enter ToDo works">
-        <input type="submit" value="Add ToDo" class="btn btn-lg btn-primary mt-2">
+<div class="container mt-5"> <!-- Adjust the top margin as needed -->
+    <!-- Form for adding a new ToDo -->
+    <form action="/add/todo" method="post" enctype="multipart/form-data">
+        <input type="text" name="todo" class="form-control" placeholder="Enter Task">
+        <input type="file" name="file" class="form-control mt-2" accept="image/*">
+        <input type="submit" value="Add Task" class="btn btn-primary mt-2">
     </form>
 
+    <!-- List of Todos -->
     <ul class="list-group mt-5">
+        <!-- Check condition if todos length is greater than zero -->
         <% if (todos && todos.length > 0) { %>
+            <!-- Loop through each ToDo and display it -->
             <% todos.forEach(todo => { %>
                 <li class="list-group-item">
-                    <%= todo.todo %>
-                    <form action="/delete/todo" method="post" class="d-inline">
-                        <input type="hidden" name="todo" value="<%= todo.todo %>">
-                        <button type="submit" class="btn btn-sm btn-danger ml-2">Delete</button>
-                    </form>
+                    <strong><%= todo.todo %></strong>
+                    <!-- Display image if imageUrl is present -->
+                    <% if (todo.imageUrl) { %>
+                        <div>
+                            <img src="<%= todo.imageUrl %>" alt="Todo Image" class="img-thumbnail mt-2">
+                        </div>
+                    <% } %>
+                    <div>
+                        <!-- Add a download link for the image -->
+                        <a href="<%= todo.imageUrl %>" download="<%= todo.todo %>" class="btn btn-sm btn-primary mt-2">Download</a>
+                        <!-- Form for deleting a ToDo -->
+                        <form action="/delete/todo" method="post" class="d-inline">
+                            <input type="hidden" name="todo" value="<%= todo.todo %>">
+                            <button type="submit" class="btn btn-sm btn-danger mt-2">Delete</button>
+                        </form>
+                    </div>
                 </li>
             <% }); %>
         <% } else { %>
-            <li class="list-group-item">No todos available.</li>
+            <!-- Displayed when there are no Todos -->
+            <li class="list-group-item">No Task Available.</li>
         <% } %>
     </ul>
 </div>

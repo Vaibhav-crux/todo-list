@@ -1,0 +1,8 @@
+/* Remove border from file input */
+input[type="file"] {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

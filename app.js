@@ -1,18 +1,30 @@
+// Importing node.js modules
 const express = require("express");
 const admin = require("firebase-admin");
+const { Storage } = require('@google-cloud/storage');
 
+// Creates an instance of the express server
 const app = express();
 
-const serviceAccount = require("./files/nodejs-ace4f-firebase-adminsdk-7f7xr-08b1f5c3d3.json");
+// Set the Google Cloud Storage credentials file path
+process.env.GOOGLE_APPLICATION_CREDENTIALS = "./files/similarity-finder-a0a36122f445.json";
+
+// Initialize Firebase Admin SDK
+const serviceAccount = require("./files/nodejs-2dde3-firebase-adminsdk-o8g8o-3e5b4b30ff.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://nodejs-ace4f-default-rtdb.asia-southeast1.firebasedatabase.app",
+  databaseURL: "https://nodejs-2dde3-default-rtdb.firebaseio.com/",
 });
 
+// Initialize Google Cloud Storage
+const storage = new Storage();
+const bucket = storage.bucket("todos-vt");
+
+// Middleware
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("public"));
 app.set("view engine", "ejs");
 
+// Routing configurations
 app.use(require("./routers/todo"));
 app.use(require("./routers/index"));
 

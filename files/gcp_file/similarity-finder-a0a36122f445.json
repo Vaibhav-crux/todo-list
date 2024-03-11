@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "similarity-finder",
+  "private_key_id": "a0a36122f4457d428da9ca8fdab69977f7d09c97",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4DCtoQlc1NNmr\n853i6dFOCWNjXyAvUkO4GYRulja/41Sef/5qOpBFz/xjvZtjUgWUuBxV5rwACJFe\n64OxJ92C5KCEvWq3n6qLZ3cDL7WPZ/N2ZI+Lvfv0pFnwnCTdS8QIiVt2HnDEshuK\nXQ6PL5HYkO5UJ0QYU/6uJ8hxXyxMbfIoqCod3eiLA/12A6lgWwPmI4JaCIl4yjG5\napccV8UhLZL2BCxOfVLFJsWhIgX93+SN4//59VXKsCfp7Ipb4Q9XDQPZXKXeCPuu\nmpi08gCAszkQip/Ox9NJc6HDLo/X4W3XO4ieWZ1Y9dTjir6wTWXcqLt9v3kzPlZo\nXatt6nd7AgMBAAECggEAHH8MiiraEYEP14mzn1UgP6rAypDezQTkkFDUdOzpfYzH\nZs0e3rgXlipDA/cbuTqTZk3wBorgU/RU/HM5uN3DydxNUDrQbFhFPIALaMu5GwL3\ngBQc4lWgTmYouNJBpklGCSOqAiAUyhe2SkDonASRBTeXdyHR73Rd4VLZPFiF5YVN\nEcK2WG0BW/vr3PzpeoS8CZ6zVY3sPh1SDEHQrO7SsR5SQgJL2K4wDnD3Ip2YAEOD\nS0/LrKyMDZZ8RwSU7qCJk4NhSWdCF0BHEoG2+LYsvDXIazUaSSrs/H1FxkwcV+4Y\niswM7y3FJSnJV1+5D89Ct/dMzvQ7HMZMsfzbA1mmQQKBgQD945uXwTS9EoLGnhNW\nXoQfOnjic9obUDUZS7FCRKNs6koryf7PiX/Zg9U33pK8CcCCtxmsBXJStz4OM4U4\nmId+iEucvhkXuz4wZqODeBeBLwjbCuic6ssnMTxtovuIXtcX91H9s/JIxA5Mg9vA\nGBwFNdBDH+AZn4xvB4EEkzXvQQKBgQC5k+gvXpCtmtvy7y4aEEK7Yy/SHm9XK4Yv\nc7pGZah4qPa8TEUx1tats9B5KbSsxh0MDIrEzLusl7xX8o1qf6/tRQU4/EcWXulL\nu/9WZrEPfc18kezNT4GnM84cZo6EgEhU3kL8N1q+5r+EAVFxn7/I1zM9ih5XsVyn\nDO3MgurzuwKBgQCldiuV6CWNvz2ZYbXqiOiETaAwvR38xPYGCU15ibAUMFCsXxWA\nffTjdkaEBbsNbzGWPuwtLtOF0sRPjwYYj1dmgD7+5OkHjVEHTCzuZlqzJ0sXLfHR\nKjfB0BW4wgo5os19YgJ+XELfZ16GQTz64PuJ7btPs7tiF5f3WCWeLK5uwQKBgEOD\n1w4cxmASngC1Gb2rust323cDUZiSIiBzZwqjg3ZaamG5Edd/BN1vNOJP1QaikQDI\nM1hD7+dr0L7iZKahS7zzxmGkDqzJ3PCLteqWM8aiCzdN06wiR9Yv18WnXiRAk5Ak\nyJQAA4i+ZGC/JgVDjD+iY2b5L+7RfRbdckpcOuRvAoGBAJCOEvs9kqtbgRpypkCU\njBuZJyumi47rnSvUy1nUiqRNVPfXqEf956Fpk+b8lsOgrvuQanbLlUmC84n2ZmW5\nZ0gEgnq8IUN4/619AyVZgRKQo/YpkxS/yPY6b3dX6Phc4PIvUIpNMCgKbOiDBhY7\n36bqojhwPsD5AV+c58dZtTxG\n-----END PRIVATE KEY-----\n",
+  "client_email": "vaibhav-tiwari-todo@similarity-finder.iam.gserviceaccount.com",
+  "client_id": "118393086694691143764",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vaibhav-tiwari-todo%40similarity-finder.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
